@@ -1,0 +1,35 @@
+TARGET = Some("x86_64-unknown-linux-gnu")
+OPT_LEVEL = Some("0")
+PROFILE = Some("debug")
+TARGET = Some("x86_64-unknown-linux-gnu")
+debug=true opt-level=0
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+HOST = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-g" "-m64" "-fPIC" "-o" "/media/reverseinverse/Data/RustByExample/piston2dExample/target/debug/build/miniz-sys-fa48ce1a538dca79/out/miniz.o" "-c" "miniz.c"
+ExitStatus(Code(0))
+TARGET = Some("x86_64-unknown-linux-gnu")
+TARGET = Some("x86_64-unknown-linux-gnu")
+HOST = Some("x86_64-unknown-linux-gnu")
+AR_x86_64-unknown-linux-gnu = None
+AR_x86_64_unknown_linux_gnu = None
+HOST_AR = None
+AR = None
+TARGET = Some("x86_64-unknown-linux-gnu")
+running: "ar" "crus" "/media/reverseinverse/Data/RustByExample/piston2dExample/target/debug/build/miniz-sys-fa48ce1a538dca79/out/libminiz.a" "/media/reverseinverse/Data/RustByExample/piston2dExample/target/debug/build/miniz-sys-fa48ce1a538dca79/out/miniz.o"
+ExitStatus(Code(0))
+cargo:rustc-link-lib=static=miniz
+cargo:rustc-link-search=native=/media/reverseinverse/Data/RustByExample/piston2dExample/target/debug/build/miniz-sys-fa48ce1a538dca79/out
+cargo:root=/media/reverseinverse/Data/RustByExample/piston2dExample/target/debug/build/miniz-sys-fa48ce1a538dca79/out

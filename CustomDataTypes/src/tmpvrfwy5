@@ -1,0 +1,5 @@
+struct 3DSpaceVec {
+	x: f64,
+	y: f64,
+	z:
+}

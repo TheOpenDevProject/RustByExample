@@ -1,0 +1,14 @@
+#[macro_use]
+extern crate glium;
+extern crate glutin;
+
+use glium::{DisplayBuild, Surface};
+
+//Positional Data Type
+struct Vertex2f {
+    position: [f32; 2], //2point Vector XY, We will add Z later
+}
+
+fn main(){
+	let display = glutin::WindowBuilder::ne
+}

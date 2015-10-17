@@ -1,0 +1,6 @@
+[package]
+name = "HelloRust01"
+version = "0.1.0"
+authors = ["TheOpenDevProject <tkgs28@gmail.com>"]
+[dependencies]
+sfml = "0.9.3"
