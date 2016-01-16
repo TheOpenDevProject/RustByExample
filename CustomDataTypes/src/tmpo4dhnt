@@ -1,4 +1,0 @@
-struct 3DSpaceVec {
-	x: f64,
-	y: f
-}

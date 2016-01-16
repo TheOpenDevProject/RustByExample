@@ -1,7 +1,0 @@
-//i32 = int 32
-#[derive(Debug)]
-struct Structurei32);
-fn main(){
-
-
-}

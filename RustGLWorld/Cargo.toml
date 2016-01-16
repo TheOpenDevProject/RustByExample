@@ -1,8 +1,0 @@
-[package]
-name = "RustGLWorld"
-version = "0.1.0"
-authors = ["TheOpenDevProject <tkgs28@gmail.com>"]
-
-[dependencies]
-glium  = "*"
-glutin = "*"
