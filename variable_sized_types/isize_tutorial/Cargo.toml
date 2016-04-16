@@ -1,0 +1,6 @@
+[package]
+name = "isize_tutorial"
+version = "0.1.0"
+authors = ["TheOpenDevProject <tkgs28@gmail.com>"]
+
+[dependencies]
