@@ -1,0 +1,6 @@
+[package]
+name = "arrays_in_rust"
+version = "0.1.0"
+authors = ["TheOpenDevProject <tkgs28@gmail.com>"]
+
+[dependencies]
